@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-result">
+        <p class="output"></p>
+      </div>
+
+      <div class="container-operators">
+        <div class="item item-1" onclick="displayClear()"><p>c</p></div>
+        <div class="item item-2" onclick="displayOperator('+')"><p>+/-</p></div>
+        <div class="item item-3" onclick="displayOperator('%')"><p>%</p></div>
+        <div class="item item-4" onclick="displayOperator('/')"><p>/</p></div>
+        <div class="item item-5" onclick="displayNumber(7)"><p>7</p></div>
+        <div class="item item-6" onclick="displayNumber(8)"><p>8</p></div>
+        <div class="item item-7" onclick="displayNumber(9)"><p>9</p></div>
+        <div class="item item-8" onclick="displayOperator('*')"><p>x</p></div>
+        <div class="item item-9" onclick="displayNumber(4)"><p>4</p></div>
+        <div class="item item-10" onclick="displayNumber(5)"><p>5</p></div>
+        <div class="item item-11" onclick="displayNumber(6)"><p>6</p></div>
+        <div class="item item-12" onclick="displayOperator('-')"><p>-</p></div>
+        <div class="item item-13" onclick="displayNumber(1)"><p>1</p></div>
+        <div class="item item-14" onclick="displayNumber(2)"><p>2</p></div>
+        <div class="item item-15" onclick="displayNumber(3)"><p>3</p></div>
+        <div class="item item-16" onclick="displayOperator('+')"><p>+</p></div>
+        <div class="item item-17" onclick="displayNumber(0)"><p>0</p></div>
+        <div class="item item-18" onclick="displayComma()"><p>,</p></div>
+        <div class="item item-19" onclick="calculate()"><p>=</p></div>
+      </div>
+    </div>
+  </body>
+</html>

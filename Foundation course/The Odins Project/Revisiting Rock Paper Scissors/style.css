@@ -1,0 +1,54 @@
+body {
+  background-color: #192647;
+  font-family: "Kode Mono", monospace;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.container-game {
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+  background-color: #0046ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-result {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  gap: 8rem;
+}
+
+.icons {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+  height: 11rem;
+  width: 11rem;
+  cursor: pointer;
+}
+
+.watermark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
